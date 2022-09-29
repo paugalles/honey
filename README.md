@@ -4,6 +4,7 @@ This is an exercice of honey microscope image classification.
 
 ## Training
 
+```bash
 usage: train.py [-h] [--split_random_seed SPLIT_RANDOM_SEED]
                 [--batch_sz BATCH_SZ] [--n_epochs N_EPOCHS]
                 [--num_workers NUM_WORKERS]
@@ -28,9 +29,11 @@ optional arguments:
   --experiment EXPERIMENT
                         experiment_name for mlflow
   --model MODEL         model name
+```
 
 ## Inference & Testing
 
+```bash
 usage: test.py [-h] [--weightsfn WEIGHTSFN] [--outpath OUTPATH]
                [--model MODEL] [--split_random_seed SPLIT_RANDOM_SEED]
                [--batch_sz BATCH_SZ] [--num_workers NUM_WORKERS]
@@ -46,6 +49,7 @@ optional arguments:
   --batch_sz BATCH_SZ   batch size
   --num_workers NUM_WORKERS
                         num_workers
+```
 
 ## Installation & environemnt
 
