@@ -1,3 +1,8 @@
+mlruns/
+data/
+honey/
+hny/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
